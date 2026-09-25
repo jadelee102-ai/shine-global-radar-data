@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T00:09:11+08:00",
+  "updated_at": "2026-09-26T00:29:10+08:00",
   "summary": {
     "total_indicators": 39,
     "ok": 39,
@@ -7,7 +7,7 @@
   },
   "sections": {
     "market": {
-      "source_updated_at": "2026-09-26T00:08:44+08:00",
+      "source_updated_at": "2026-09-26T00:28:37+08:00",
       "indicator_count": 22,
       "ok_count": 22,
       "error_count": 0,
@@ -15,96 +15,96 @@
         "sp500": {
           "name": "S&P 500",
           "symbol": "^GSPC",
-          "price": 7744.4502,
-          "change_pct": 0.52,
+          "price": 7741.9302,
+          "change_pct": 0.49,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "nasdaq": {
           "name": "Nasdaq",
           "symbol": "^IXIC",
-          "price": 27105.0586,
-          "change_pct": 0.62,
+          "price": 27087.7285,
+          "change_pct": 0.55,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "dxy": {
           "name": "US Dollar Index",
           "symbol": "DX-Y.NYB",
-          "price": 101.017,
-          "change_pct": -0.27,
+          "price": 100.949,
+          "change_pct": -0.34,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "gold": {
           "name": "Gold",
           "symbol": "GC=F",
-          "price": 4320.2002,
-          "change_pct": 0.52,
+          "price": 4325.0,
+          "change_pct": 0.63,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "oil_wti": {
           "name": "WTI Crude Oil",
           "symbol": "CL=F",
-          "price": 93.06,
-          "change_pct": -1.64,
+          "price": 91.86,
+          "change_pct": -2.91,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "copper": {
           "name": "Copper",
           "symbol": "HG=F",
-          "price": 6.755,
-          "change_pct": 0.54,
+          "price": 6.7685,
+          "change_pct": 0.74,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "bitcoin": {
           "name": "Bitcoin",
           "symbol": "BTC-USD",
-          "price": 83980.9219,
-          "change_pct": -0.47,
+          "price": 83953.1094,
+          "change_pct": -0.5,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "ethereum": {
           "name": "Ethereum",
           "symbol": "ETH-USD",
-          "price": 2692.5601,
-          "change_pct": 0.2,
+          "price": 2691.6699,
+          "change_pct": 0.16,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "vix": {
           "name": "VIX",
           "symbol": "^VIX",
-          "price": 15.52,
-          "change_pct": -0.96,
+          "price": 15.02,
+          "change_pct": -4.15,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "brent": {
           "name": "Brent Crude Oil",
           "symbol": "BZ=F",
-          "price": 98.22,
-          "change_pct": -7.86,
+          "price": 96.69,
+          "change_pct": -9.3,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "natural_gas": {
           "name": "Natural Gas",
           "symbol": "NG=F",
-          "price": 3.2,
-          "change_pct": -2.94,
+          "price": 3.198,
+          "change_pct": -3.0,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "silver": {
           "name": "Silver",
           "symbol": "SI=F",
-          "price": 64.725,
-          "change_pct": 2.0,
+          "price": 64.825,
+          "change_pct": 2.16,
           "market_date": "2026-09-25",
           "status": "ok"
         },
@@ -159,23 +159,23 @@
         "usd_cny": {
           "name": "USD/CNY",
           "symbol": "CNY=X",
-          "price": 6.7037,
-          "change_pct": -0.11,
+          "price": 6.7123,
+          "change_pct": 0.02,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "eur_usd": {
           "name": "EUR/USD",
           "symbol": "EURUSD=X",
-          "price": 1.1409,
-          "change_pct": 0.24,
+          "price": 1.14,
+          "change_pct": 0.16,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "usd_jpy": {
           "name": "USD/JPY",
           "symbol": "JPY=X",
-          "price": 157.105,
+          "price": 157.11,
           "change_pct": -0.73,
           "market_date": "2026-09-25",
           "status": "ok"
@@ -183,15 +183,15 @@
         "usd_sgd": {
           "name": "USD/SGD",
           "symbol": "SGD=X",
-          "price": 1.2765,
-          "change_pct": -0.29,
+          "price": 1.277,
+          "change_pct": -0.25,
           "market_date": "2026-09-25",
           "status": "ok"
         }
       }
     },
     "us_macro": {
-      "source_updated_at": "2026-09-26T00:09:09+08:00",
+      "source_updated_at": "2026-09-26T00:29:09+08:00",
       "indicator_count": 12,
       "ok_count": 12,
       "error_count": 0,
@@ -319,7 +319,7 @@
       }
     },
     "china_macro": {
-      "source_updated_at": "2026-09-26T00:09:10+08:00",
+      "source_updated_at": "2026-09-26T00:29:10+08:00",
       "indicator_count": 5,
       "ok_count": 5,
       "error_count": 0,

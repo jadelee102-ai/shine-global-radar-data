@@ -1,6 +1,6 @@
 {
   "format": "shine-dashboard-v1",
-  "updated_at": "2026-09-26T00:09:19+08:00",
+  "updated_at": "2026-09-26T00:29:22+08:00",
   "values": {
     "CN02": {
       "current": "-3.4 pct",
@@ -31,36 +31,36 @@
       "note": "自动更新：FRED 美国高收益债期权调整利差。"
     },
     "FX01": {
-      "current": "-0.50%",
-      "previous": "101.51 → 101.00",
+      "current": "-0.54%",
+      "previous": "101.51 → 100.96",
       "score": 0,
       "date": "2026-09-25",
       "note": "自动更新：美元指数约60自然日涨跌幅。"
     },
     "FX03": {
-      "current": "+176 点",
-      "previous": "CNH 6.7213 / CNY 6.7037",
-      "score": -2,
+      "current": "+92 点",
+      "previous": "CNH 6.7215 / CNY 6.7123",
+      "score": -1,
       "date": "2026-09-25",
       "note": "自动更新：离岸CNH减在岸CNY，乘10000。"
     },
     "FU01": {
-      "current": "+12.89%",
-      "previous": "Brent +11.1% / Gas +15.6%",
-      "score": -2,
+      "current": "+11.97%",
+      "previous": "Brent +9.5% / Gas +15.7%",
+      "score": -1,
       "date": "2026-09-25",
       "note": "自动更新：Brent 60% + Henry Hub天然气40%。"
     },
     "CR01": {
-      "current": "+31.72%",
-      "previous": "63724.90 → 83936.68 USD",
+      "current": "+31.78%",
+      "previous": "63724.90 → 83979.15 USD",
       "score": 2,
       "date": "2026-09-25",
       "note": "自动更新：BTC-USD约60自然日涨跌幅。"
     },
     "CR02": {
-      "current": "+42.36%",
-      "previous": "1890.61 → 2691.43 USD",
+      "current": "+42.40%",
+      "previous": "1890.61 → 2692.31 USD",
       "score": 2,
       "date": "2026-09-25",
       "note": "自动更新：ETH-USD约60自然日涨跌幅。"
