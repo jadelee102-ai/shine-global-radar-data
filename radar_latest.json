@@ -1,0 +1,383 @@
+{
+  "updated_at": "2026-09-26T00:09:11+08:00",
+  "summary": {
+    "total_indicators": 39,
+    "ok": 39,
+    "errors": 0
+  },
+  "sections": {
+    "market": {
+      "source_updated_at": "2026-09-26T00:08:44+08:00",
+      "indicator_count": 22,
+      "ok_count": 22,
+      "error_count": 0,
+      "indicators": {
+        "sp500": {
+          "name": "S&P 500",
+          "symbol": "^GSPC",
+          "price": 7744.4502,
+          "change_pct": 0.52,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "nasdaq": {
+          "name": "Nasdaq",
+          "symbol": "^IXIC",
+          "price": 27105.0586,
+          "change_pct": 0.62,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "dxy": {
+          "name": "US Dollar Index",
+          "symbol": "DX-Y.NYB",
+          "price": 101.017,
+          "change_pct": -0.27,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "gold": {
+          "name": "Gold",
+          "symbol": "GC=F",
+          "price": 4320.2002,
+          "change_pct": 0.52,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "oil_wti": {
+          "name": "WTI Crude Oil",
+          "symbol": "CL=F",
+          "price": 93.06,
+          "change_pct": -1.64,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "copper": {
+          "name": "Copper",
+          "symbol": "HG=F",
+          "price": 6.755,
+          "change_pct": 0.54,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "bitcoin": {
+          "name": "Bitcoin",
+          "symbol": "BTC-USD",
+          "price": 83980.9219,
+          "change_pct": -0.47,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "ethereum": {
+          "name": "Ethereum",
+          "symbol": "ETH-USD",
+          "price": 2692.5601,
+          "change_pct": 0.2,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "vix": {
+          "name": "VIX",
+          "symbol": "^VIX",
+          "price": 15.52,
+          "change_pct": -0.96,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "brent": {
+          "name": "Brent Crude Oil",
+          "symbol": "BZ=F",
+          "price": 98.22,
+          "change_pct": -7.86,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "natural_gas": {
+          "name": "Natural Gas",
+          "symbol": "NG=F",
+          "price": 3.2,
+          "change_pct": -2.94,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "silver": {
+          "name": "Silver",
+          "symbol": "SI=F",
+          "price": 64.725,
+          "change_pct": 2.0,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "hang_seng": {
+          "name": "Hang Seng Index",
+          "symbol": "^HSI",
+          "price": 24761.1309,
+          "change_pct": -0.29,
+          "market_date": "2026-09-24",
+          "status": "ok"
+        },
+        "sse_composite": {
+          "name": "SSE Composite",
+          "symbol": "000001.SS",
+          "price": 3888.374,
+          "change_pct": -1.22,
+          "market_date": "2026-09-24",
+          "status": "ok"
+        },
+        "csi300": {
+          "name": "CSI 300",
+          "symbol": "000300.SS",
+          "price": 4439.1445,
+          "change_pct": 0.0,
+          "market_date": "2026-09-24",
+          "status": "ok"
+        },
+        "nikkei225": {
+          "name": "Nikkei 225",
+          "symbol": "^N225",
+          "price": 65513.9883,
+          "change_pct": 0.76,
+          "market_date": "2026-09-24",
+          "status": "ok"
+        },
+        "ftse100": {
+          "name": "FTSE 100",
+          "symbol": "^FTSE",
+          "price": 10695.25,
+          "change_pct": 0.14,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "dax": {
+          "name": "DAX",
+          "symbol": "^GDAXI",
+          "price": 25408.6406,
+          "change_pct": 0.56,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "usd_cny": {
+          "name": "USD/CNY",
+          "symbol": "CNY=X",
+          "price": 6.7037,
+          "change_pct": -0.11,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "eur_usd": {
+          "name": "EUR/USD",
+          "symbol": "EURUSD=X",
+          "price": 1.1409,
+          "change_pct": 0.24,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "usd_jpy": {
+          "name": "USD/JPY",
+          "symbol": "JPY=X",
+          "price": 157.105,
+          "change_pct": -0.73,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        },
+        "usd_sgd": {
+          "name": "USD/SGD",
+          "symbol": "SGD=X",
+          "price": 1.2765,
+          "change_pct": -0.29,
+          "market_date": "2026-09-25",
+          "status": "ok"
+        }
+      }
+    },
+    "us_macro": {
+      "source_updated_at": "2026-09-26T00:09:09+08:00",
+      "indicator_count": 12,
+      "ok_count": 12,
+      "error_count": 0,
+      "indicators": {
+        "us_cpi": {
+          "name": "美国CPI",
+          "series_id": "CPIAUCSL",
+          "frequency": "monthly",
+          "value": 334.131,
+          "date": "2026-08-01",
+          "previous_value": 332.813,
+          "previous_date": "2026-07-01",
+          "status": "ok"
+        },
+        "us_unemployment": {
+          "name": "美国失业率",
+          "series_id": "UNRATE",
+          "frequency": "monthly",
+          "value": 4.1,
+          "date": "2026-08-01",
+          "previous_value": 4.1,
+          "previous_date": "2026-07-01",
+          "status": "ok"
+        },
+        "us_industrial_production": {
+          "name": "美国工业生产",
+          "series_id": "INDPRO",
+          "frequency": "monthly",
+          "value": 103.0682,
+          "date": "2026-08-01",
+          "previous_value": 103.0454,
+          "previous_date": "2026-07-01",
+          "status": "ok"
+        },
+        "us_10y": {
+          "name": "美国10年期国债收益率",
+          "series_id": "DGS10",
+          "frequency": "daily",
+          "value": 5.11,
+          "date": "2026-09-23",
+          "previous_value": 4.96,
+          "previous_date": "2026-09-22",
+          "status": "ok"
+        },
+        "fed_funds": {
+          "name": "美国联邦基金利率",
+          "series_id": "FEDFUNDS",
+          "frequency": "monthly",
+          "value": 3.63,
+          "date": "2026-08-01",
+          "previous_value": 3.63,
+          "previous_date": "2026-07-01",
+          "status": "ok"
+        },
+        "us_2y": {
+          "name": "美国2年期国债收益率",
+          "series_id": "DGS2",
+          "frequency": "daily",
+          "value": 4.85,
+          "date": "2026-09-23",
+          "previous_value": 4.71,
+          "previous_date": "2026-09-22",
+          "status": "ok"
+        },
+        "us_10y_2y_spread": {
+          "name": "美债10Y-2Y利差",
+          "series_id": "T10Y2Y",
+          "frequency": "daily",
+          "value": 0.31,
+          "date": "2026-09-24",
+          "previous_value": 0.26,
+          "previous_date": "2026-09-23",
+          "status": "ok"
+        },
+        "us_10y_real": {
+          "name": "美国10年期实际利率",
+          "series_id": "DFII10",
+          "frequency": "daily",
+          "value": 2.76,
+          "date": "2026-09-23",
+          "previous_value": 2.63,
+          "previous_date": "2026-09-22",
+          "status": "ok"
+        },
+        "us_10y_breakeven": {
+          "name": "美国10年期盈亏平衡通胀率",
+          "series_id": "T10YIE",
+          "frequency": "daily",
+          "value": 2.33,
+          "date": "2026-09-24",
+          "previous_value": 2.35,
+          "previous_date": "2026-09-23",
+          "status": "ok"
+        },
+        "initial_claims": {
+          "name": "美国首次申请失业救济人数",
+          "series_id": "ICSA",
+          "frequency": "weekly",
+          "value": 197000.0,
+          "date": "2026-09-19",
+          "previous_value": 198000.0,
+          "previous_date": "2026-09-12",
+          "status": "ok"
+        },
+        "core_pce": {
+          "name": "美国核心PCE价格指数",
+          "series_id": "PCEPILFE",
+          "frequency": "monthly",
+          "value": 130.658,
+          "date": "2026-07-01",
+          "previous_value": 130.338,
+          "previous_date": "2026-06-01",
+          "status": "ok"
+        },
+        "retail_sales": {
+          "name": "美国零售销售",
+          "series_id": "RSAFS",
+          "frequency": "monthly",
+          "value": 773947.0,
+          "date": "2026-08-01",
+          "previous_value": 764462.0,
+          "previous_date": "2026-07-01",
+          "status": "ok"
+        }
+      }
+    },
+    "china_macro": {
+      "source_updated_at": "2026-09-26T00:09:10+08:00",
+      "indicator_count": 5,
+      "ok_count": 5,
+      "error_count": 0,
+      "indicators": {
+        "china_cpi_yoy": {
+          "name": "中国CPI同比",
+          "date": "2026-08",
+          "value": 0.8,
+          "unit": "%",
+          "extra": {
+            "全国-当月": 100.8,
+            "全国-环比增长": 0.4
+          },
+          "status": "ok"
+        },
+        "china_ppi_yoy": {
+          "name": "中国PPI同比",
+          "date": "2026-08",
+          "value": 3.8,
+          "unit": "%",
+          "extra": {
+            "当月": 103.8
+          },
+          "status": "ok"
+        },
+        "china_pmi": {
+          "name": "中国制造业PMI",
+          "date": "2026-08",
+          "value": 49.8,
+          "unit": "index",
+          "extra": {
+            "非制造业-指数": 49.0
+          },
+          "status": "ok"
+        },
+        "china_m2_yoy": {
+          "name": "中国M2同比",
+          "date": "2026-08",
+          "value": 7.5,
+          "unit": "%",
+          "extra": {
+            "货币和准货币(M2)-数量(亿元)": 3568083.6
+          },
+          "status": "ok"
+        },
+        "china_retail_yoy": {
+          "name": "中国社会消费品零售总额同比",
+          "date": "2026-08",
+          "value": 0.4,
+          "unit": "%",
+          "extra": {
+            "当月": 39824.4,
+            "累计": 327568.8,
+            "累计-同比增长": 1.1
+          },
+          "status": "ok"
+        }
+      }
+    }
+  }
+}
