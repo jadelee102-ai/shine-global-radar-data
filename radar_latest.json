@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-26T00:30:55+08:00",
+  "updated_at": "2026-09-26T00:32:22+08:00",
   "summary": {
     "total_indicators": 39,
-    "ok": 37,
-    "errors": 2
+    "ok": 39,
+    "errors": 0
   },
   "sections": {
     "market": {
-      "source_updated_at": "2026-09-26T00:30:01+08:00",
+      "source_updated_at": "2026-09-26T00:32:00+08:00",
       "indicator_count": 22,
       "ok_count": 22,
       "error_count": 0,
@@ -15,7 +15,7 @@
         "sp500": {
           "name": "S&P 500",
           "symbol": "^GSPC",
-          "price": 7744.8799,
+          "price": 7745.1099,
           "change_pct": 0.53,
           "market_date": "2026-09-25",
           "status": "ok"
@@ -23,7 +23,7 @@
         "nasdaq": {
           "name": "Nasdaq",
           "symbol": "^IXIC",
-          "price": 27097.9375,
+          "price": 27098.7402,
           "change_pct": 0.59,
           "market_date": "2026-09-25",
           "status": "ok"
@@ -31,80 +31,80 @@
         "dxy": {
           "name": "US Dollar Index",
           "symbol": "DX-Y.NYB",
-          "price": 100.967,
-          "change_pct": -0.32,
+          "price": 100.979,
+          "change_pct": -0.31,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "gold": {
           "name": "Gold",
           "symbol": "GC=F",
-          "price": 4324.1001,
-          "change_pct": 0.61,
+          "price": 4323.1001,
+          "change_pct": 0.58,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "oil_wti": {
           "name": "WTI Crude Oil",
           "symbol": "CL=F",
-          "price": 91.81,
-          "change_pct": -2.96,
+          "price": 92.04,
+          "change_pct": -2.72,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "copper": {
           "name": "Copper",
           "symbol": "HG=F",
-          "price": 6.7665,
-          "change_pct": 0.71,
+          "price": 6.765,
+          "change_pct": 0.69,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "bitcoin": {
           "name": "Bitcoin",
           "symbol": "BTC-USD",
-          "price": 83951.3281,
-          "change_pct": -0.51,
+          "price": 83971.5938,
+          "change_pct": -0.48,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "ethereum": {
           "name": "Ethereum",
           "symbol": "ETH-USD",
-          "price": 2691.6299,
-          "change_pct": 0.16,
+          "price": 2691.74,
+          "change_pct": 0.17,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "vix": {
           "name": "VIX",
           "symbol": "^VIX",
-          "price": 15.04,
-          "change_pct": -4.02,
+          "price": 15.0,
+          "change_pct": -4.28,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "brent": {
           "name": "Brent Crude Oil",
           "symbol": "BZ=F",
-          "price": 96.68,
-          "change_pct": -9.31,
+          "price": 96.91,
+          "change_pct": -9.09,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "natural_gas": {
           "name": "Natural Gas",
           "symbol": "NG=F",
-          "price": 3.201,
-          "change_pct": -2.91,
+          "price": 3.203,
+          "change_pct": -2.85,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "silver": {
           "name": "Silver",
           "symbol": "SI=F",
-          "price": 64.785,
-          "change_pct": 2.09,
+          "price": 64.775,
+          "change_pct": 2.08,
           "market_date": "2026-09-25",
           "status": "ok"
         },
@@ -167,16 +167,16 @@
         "eur_usd": {
           "name": "EUR/USD",
           "symbol": "EURUSD=X",
-          "price": 1.14,
-          "change_pct": 0.16,
+          "price": 1.1401,
+          "change_pct": 0.17,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "usd_jpy": {
           "name": "USD/JPY",
           "symbol": "JPY=X",
-          "price": 157.099,
-          "change_pct": -0.74,
+          "price": 157.147,
+          "change_pct": -0.71,
           "market_date": "2026-09-25",
           "status": "ok"
         },
@@ -191,22 +191,30 @@
       }
     },
     "us_macro": {
-      "source_updated_at": "2026-09-26T00:30:53+08:00",
+      "source_updated_at": "2026-09-26T00:32:20+08:00",
       "indicator_count": 12,
-      "ok_count": 10,
-      "error_count": 2,
+      "ok_count": 12,
+      "error_count": 0,
       "indicators": {
         "us_cpi": {
           "name": "美国CPI",
           "series_id": "CPIAUCSL",
-          "status": "error",
-          "error": "502 Server Error: Bad Gateway for url: https://api.stlouisfed.org/fred/series/observations?series_id=CPIAUCSL&api_key=43d360f5bf6d93b51f2f691376b8885d&file_type=json&sort_order=desc&limit=20"
+          "frequency": "monthly",
+          "value": 334.131,
+          "date": "2026-08-01",
+          "previous_value": 332.813,
+          "previous_date": "2026-07-01",
+          "status": "ok"
         },
         "us_unemployment": {
           "name": "美国失业率",
           "series_id": "UNRATE",
-          "status": "error",
-          "error": "502 Server Error: Bad Gateway for url: https://api.stlouisfed.org/fred/series/observations?series_id=UNRATE&api_key=43d360f5bf6d93b51f2f691376b8885d&file_type=json&sort_order=desc&limit=20"
+          "frequency": "monthly",
+          "value": 4.1,
+          "date": "2026-08-01",
+          "previous_value": 4.1,
+          "previous_date": "2026-07-01",
+          "status": "ok"
         },
         "us_industrial_production": {
           "name": "美国工业生产",
@@ -311,7 +319,7 @@
       }
     },
     "china_macro": {
-      "source_updated_at": "2026-09-26T00:30:55+08:00",
+      "source_updated_at": "2026-09-26T00:32:22+08:00",
       "indicator_count": 5,
       "ok_count": 5,
       "error_count": 0,
