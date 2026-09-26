@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-26T00:35:11+08:00",
+  "updated_at": "2026-09-26T08:02:16+08:00",
   "summary": {
     "total_indicators": 39,
-    "ok": 39,
-    "errors": 0
+    "ok": 37,
+    "errors": 2
   },
   "sections": {
     "market": {
-      "source_updated_at": "2026-09-26T00:34:52+08:00",
+      "source_updated_at": "2026-09-26T08:00:07+08:00",
       "indicator_count": 22,
       "ok_count": 22,
       "error_count": 0,
@@ -15,96 +15,96 @@
         "sp500": {
           "name": "S&P 500",
           "symbol": "^GSPC",
-          "price": 7736.3599,
-          "change_pct": 0.42,
+          "price": 7743.4102,
+          "change_pct": 0.51,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "nasdaq": {
           "name": "Nasdaq",
           "symbol": "^IXIC",
-          "price": 27066.1406,
-          "change_pct": 0.47,
+          "price": 27068.7168,
+          "change_pct": 0.48,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "dxy": {
           "name": "US Dollar Index",
           "symbol": "DX-Y.NYB",
-          "price": 100.99,
-          "change_pct": -0.3,
+          "price": 101.035,
+          "change_pct": -0.25,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "gold": {
           "name": "Gold",
           "symbol": "GC=F",
-          "price": 4322.2998,
-          "change_pct": 0.57,
+          "price": 4320.5,
+          "change_pct": 0.52,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "oil_wti": {
           "name": "WTI Crude Oil",
           "symbol": "CL=F",
-          "price": 92.29,
-          "change_pct": -2.45,
+          "price": 92.44,
+          "change_pct": -2.29,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "copper": {
           "name": "Copper",
           "symbol": "HG=F",
-          "price": 6.767,
-          "change_pct": 0.72,
+          "price": 6.779,
+          "change_pct": 0.9,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "bitcoin": {
           "name": "Bitcoin",
           "symbol": "BTC-USD",
-          "price": 83801.7031,
-          "change_pct": -0.68,
-          "market_date": "2026-09-25",
+          "price": 84089.0703,
+          "change_pct": -0.34,
+          "market_date": "2026-09-26",
           "status": "ok"
         },
         "ethereum": {
           "name": "Ethereum",
           "symbol": "ETH-USD",
-          "price": 2684.8799,
-          "change_pct": -0.09,
-          "market_date": "2026-09-25",
+          "price": 2691.22,
+          "change_pct": 0.15,
+          "market_date": "2026-09-26",
           "status": "ok"
         },
         "vix": {
           "name": "VIX",
           "symbol": "^VIX",
-          "price": 15.08,
-          "change_pct": -3.77,
+          "price": 14.87,
+          "change_pct": -5.11,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "brent": {
           "name": "Brent Crude Oil",
           "symbol": "BZ=F",
-          "price": 97.28,
-          "change_pct": -8.74,
+          "price": 97.47,
+          "change_pct": -8.56,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "natural_gas": {
           "name": "Natural Gas",
           "symbol": "NG=F",
-          "price": 3.198,
-          "change_pct": -3.0,
+          "price": 3.251,
+          "change_pct": -1.4,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "silver": {
           "name": "Silver",
           "symbol": "SI=F",
-          "price": 64.77,
-          "change_pct": 2.07,
+          "price": 64.71,
+          "change_pct": 1.97,
           "market_date": "2026-09-25",
           "status": "ok"
         },
@@ -143,17 +143,17 @@
         "ftse100": {
           "name": "FTSE 100",
           "symbol": "^FTSE",
-          "price": 10695.25,
-          "change_pct": 0.14,
-          "market_date": "2026-09-25",
+          "price": 10680.0,
+          "change_pct": -0.24,
+          "market_date": "2026-09-24",
           "status": "ok"
         },
         "dax": {
           "name": "DAX",
           "symbol": "^GDAXI",
-          "price": 25408.6406,
-          "change_pct": 0.56,
-          "market_date": "2026-09-25",
+          "price": 25266.5293,
+          "change_pct": -0.57,
+          "market_date": "2026-09-24",
           "status": "ok"
         },
         "usd_cny": {
@@ -167,16 +167,16 @@
         "eur_usd": {
           "name": "EUR/USD",
           "symbol": "EURUSD=X",
-          "price": 1.1396,
-          "change_pct": 0.12,
+          "price": 1.1392,
+          "change_pct": 0.09,
           "market_date": "2026-09-25",
           "status": "ok"
         },
         "usd_jpy": {
           "name": "USD/JPY",
           "symbol": "JPY=X",
-          "price": 157.212,
-          "change_pct": -0.67,
+          "price": 157.185,
+          "change_pct": -0.68,
           "market_date": "2026-09-25",
           "status": "ok"
         },
@@ -184,17 +184,17 @@
           "name": "USD/SGD",
           "symbol": "SGD=X",
           "price": 1.2772,
-          "change_pct": -0.23,
+          "change_pct": -0.24,
           "market_date": "2026-09-25",
           "status": "ok"
         }
       }
     },
     "us_macro": {
-      "source_updated_at": "2026-09-26T00:35:09+08:00",
+      "source_updated_at": "2026-09-26T08:02:14+08:00",
       "indicator_count": 12,
-      "ok_count": 12,
-      "error_count": 0,
+      "ok_count": 10,
+      "error_count": 2,
       "indicators": {
         "us_cpi": {
           "name": "美国CPI",
@@ -209,12 +209,8 @@
         "us_unemployment": {
           "name": "美国失业率",
           "series_id": "UNRATE",
-          "frequency": "monthly",
-          "value": 4.1,
-          "date": "2026-08-01",
-          "previous_value": 4.1,
-          "previous_date": "2026-07-01",
-          "status": "ok"
+          "status": "error",
+          "error": "502 Server Error: Bad Gateway for url: https://api.stlouisfed.org/fred/series/observations?series_id=UNRATE&api_key=43d360f5bf6d93b51f2f691376b8885d&file_type=json&sort_order=desc&limit=20"
         },
         "us_industrial_production": {
           "name": "美国工业生产",
@@ -230,10 +226,10 @@
           "name": "美国10年期国债收益率",
           "series_id": "DGS10",
           "frequency": "daily",
-          "value": 5.11,
-          "date": "2026-09-23",
-          "previous_value": 4.96,
-          "previous_date": "2026-09-22",
+          "value": 5.18,
+          "date": "2026-09-24",
+          "previous_value": 5.11,
+          "previous_date": "2026-09-23",
           "status": "ok"
         },
         "fed_funds": {
@@ -249,41 +245,37 @@
         "us_2y": {
           "name": "美国2年期国债收益率",
           "series_id": "DGS2",
-          "frequency": "daily",
-          "value": 4.85,
-          "date": "2026-09-23",
-          "previous_value": 4.71,
-          "previous_date": "2026-09-22",
-          "status": "ok"
+          "status": "error",
+          "error": "502 Server Error: Bad Gateway for url: https://api.stlouisfed.org/fred/series/observations?series_id=DGS2&api_key=43d360f5bf6d93b51f2f691376b8885d&file_type=json&sort_order=desc&limit=20"
         },
         "us_10y_2y_spread": {
           "name": "美债10Y-2Y利差",
           "series_id": "T10Y2Y",
           "frequency": "daily",
-          "value": 0.31,
-          "date": "2026-09-24",
-          "previous_value": 0.26,
-          "previous_date": "2026-09-23",
+          "value": 0.36,
+          "date": "2026-09-25",
+          "previous_value": 0.31,
+          "previous_date": "2026-09-24",
           "status": "ok"
         },
         "us_10y_real": {
           "name": "美国10年期实际利率",
           "series_id": "DFII10",
           "frequency": "daily",
-          "value": 2.76,
-          "date": "2026-09-23",
-          "previous_value": 2.63,
-          "previous_date": "2026-09-22",
+          "value": 2.85,
+          "date": "2026-09-24",
+          "previous_value": 2.76,
+          "previous_date": "2026-09-23",
           "status": "ok"
         },
         "us_10y_breakeven": {
           "name": "美国10年期盈亏平衡通胀率",
           "series_id": "T10YIE",
           "frequency": "daily",
-          "value": 2.33,
-          "date": "2026-09-24",
-          "previous_value": 2.35,
-          "previous_date": "2026-09-23",
+          "value": 2.34,
+          "date": "2026-09-25",
+          "previous_value": 2.33,
+          "previous_date": "2026-09-24",
           "status": "ok"
         },
         "initial_claims": {
@@ -319,7 +311,7 @@
       }
     },
     "china_macro": {
-      "source_updated_at": "2026-09-26T00:35:11+08:00",
+      "source_updated_at": "2026-09-26T08:02:16+08:00",
       "indicator_count": 5,
       "ok_count": 5,
       "error_count": 0,
